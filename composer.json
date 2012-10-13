@@ -1,0 +1,25 @@
+{
+    "name": "ADR/riak",
+    "repositories":[
+        {
+            "type":"git",
+            "url":"git@github.com:marcosQuesada/riak-client.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "riak/riak-client":"dev-master"
+    },
+
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+
+    "description": "ADR riakBundle",
+
+    "autoload": {
+        "psr-0": {
+            "SP\\Kvs\\": "src/"
+        }
+    }
+}
