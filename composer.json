@@ -1,5 +1,5 @@
 {
-    "name": "marcosQuesada/ADRRiakBundle",
+    "name": "ADR/RiakBundle",
     "repositories":[
         {
             "type":"git",
