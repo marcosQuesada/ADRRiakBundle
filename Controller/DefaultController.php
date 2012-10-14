@@ -29,11 +29,12 @@ class DefaultController extends Controller
      */
     public function indexAction($name)
     {
-        $client = new Client($this->riakHost , $this->riakPort);
-        ladybug_dump($client->isAlive());
+        //$client = new Client($this->riakHost , $this->riakPort);
+        //var_dump($client->isAlive());
+
         $client = $this->container->get('adr_riak.client');
-        ladybug_dump($client);
-        ladybug_dump($client->isAlive());
+        var_dump($client->isAlive());
+
         return array('name' => $name);
     }
 }
