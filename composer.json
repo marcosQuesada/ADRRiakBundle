@@ -21,5 +21,6 @@
         "psr-0": {
             "ADR\\RiakBundle\\": ""
         }
-    }
+    },
+    "target-dir": "ADR/RiakBundle"
 }
