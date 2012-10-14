@@ -1,4 +1,4 @@
-# Riak Bundle
+# ADR Riak Bundle
 
 ### Installation instructions:
 
@@ -19,3 +19,5 @@ adr_riak:
 To access Riak Client:
 
     $client = $this->container->get('adr_riak.client');
+
+
