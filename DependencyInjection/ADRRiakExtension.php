@@ -26,8 +26,8 @@ class ADRRiakExtension extends Extension
         $riakHost = (count($config) == 0) ? '172.16.206.129' : $config['riak_host'];
         $riakPort= (count($config) == 0) ? '8091' : $config['riak_port'];
 
-        $container->setParameter('riak.host', $riakPort);
-        $container->setParameter('riak.port',$riakHost);
+        $container->setParameter('riak.host', $riakHost);
+        $container->setParameter('riak.port',$riakPort);
 
         $loader->load('services.xml');
     }
